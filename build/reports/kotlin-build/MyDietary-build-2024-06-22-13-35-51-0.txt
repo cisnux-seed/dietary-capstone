@@ -1,0 +1,8 @@
+Gradle start parameters:
+  tasks = []
+  excluded tasks = []
+  current dir = /Users/cisnux/temp/dietary-capstone
+  project properties args = [android.injected.build.model.only.advanced: true, android.studio.version: 241.15989.150.2411.11948838, android.injected.build.model.disable.src.download: true, org.gradle.kotlin.dsl.provider.cid: 394844465439000, android.injected.invoked.from.ide: true, android.injected.build.model.only.versioned: 3, android.injected.avoid.task.registration: true, kotlin.mpp.enableIntransitiveMetadataConfiguration: true, idea.gradle.do.not.build.tasks: true, android.injected.build.model.only: true]
+  system properties args = [idea.active: true, idea.resolveSourceSetDependencies: true, idea.version: 2024.1, java.awt.headless: true, idea.sync.active: true, org.gradle.internal.GradleProjectBuilderOptions: omit_all_tasks, idea.vendor.name: Google, idea.gradle.download.sources: true]
+
+No Kotlin task was run

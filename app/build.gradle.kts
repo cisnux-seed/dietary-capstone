@@ -157,6 +157,8 @@ dependencies {
     implementation(libs.vico.compose.m3)
     //widget
     implementation(libs.androidx.glance.appwidget)
+    implementation(libs.androidx.glance.appwidget.preview)
+    implementation(libs.androidx.glance.preview)
     //firebase
     implementation(libs.firebase.auth.ktx)
     implementation(libs.androidx.credentials)

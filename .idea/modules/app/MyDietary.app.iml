@@ -5,4 +5,18 @@
       <excludeFolder url="file://$MODULE_DIR$/../../../app/release" />
     </content>
   </component>
+  <component name="ModuleClassLoaderOverlays">
+    <paths>
+      <option value="/var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/overlay1275576237421561761" />
+      <option value="/var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/overlay17931372442905837187" />
+      <option value="/var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/overlay11487159616608697017" />
+      <option value="/var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/overlay14793175992873011411" />
+      <option value="/var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/overlay11818626675645521372" />
+      <option value="/var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/overlay2524803685058803365" />
+      <option value="/var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/overlay10863484954757319147" />
+      <option value="/var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/overlay13316049976894252255" />
+      <option value="/var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/overlay17199978120158599670" />
+      <option value="/var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/overlay11115744546125468151" />
+    </paths>
+  </component>
 </module>

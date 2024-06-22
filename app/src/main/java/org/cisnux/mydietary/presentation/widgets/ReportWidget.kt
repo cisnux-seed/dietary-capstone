@@ -17,11 +17,13 @@ import androidx.glance.GlanceModifier
 import androidx.glance.GlanceTheme
 import androidx.glance.Image
 import androidx.glance.ImageProvider
+import androidx.glance.LocalContext
 import androidx.glance.action.clickable
 import androidx.glance.appwidget.GlanceAppWidget
 import androidx.glance.appwidget.LinearProgressIndicator
 import androidx.glance.appwidget.action.actionStartActivity
 import androidx.glance.appwidget.appWidgetBackground
+import androidx.glance.appwidget.components.Scaffold
 import androidx.glance.appwidget.cornerRadius
 import androidx.glance.appwidget.lazy.LazyColumn
 import androidx.glance.appwidget.provideContent
@@ -39,6 +41,8 @@ import androidx.glance.layout.padding
 import androidx.glance.layout.size
 import androidx.glance.layout.width
 import androidx.glance.layout.wrapContentHeight
+import androidx.glance.preview.ExperimentalGlancePreviewApi
+import androidx.glance.preview.Preview
 import androidx.glance.text.FontFamily
 import androidx.glance.text.FontWeight
 import androidx.glance.text.Text
@@ -69,6 +73,8 @@ import org.cisnux.mydietary.presentation.ui.theme.primaryContainerDark
 import org.cisnux.mydietary.presentation.ui.theme.primaryContainerLight
 import org.cisnux.mydietary.commons.utils.AppDestination
 import org.cisnux.mydietary.commons.utils.UiState
+import org.cisnux.mydietary.commons.utils.fromMillisToDayDateMonthYear
+import org.cisnux.mydietary.commons.utils.fromMillisToHoursAndMinutes
 import org.cisnux.mydietary.commons.utils.fromMillisToIsoLocalDate
 import java.time.Instant
 import java.util.Locale
@@ -140,7 +146,7 @@ class ReportWidget : GlanceAppWidget() {
                 else listOf()
 
             DietaryGlanceTheme {
-                WidgetContent(
+                ReportWidgetContent(
                     totalCarbohydrateToday = userNutrition.totalCarbohydrateToday,
                     totalProteinToday = userNutrition.totalProteinToday,
                     totalCaloriesToday = userNutrition.totalCaloriesToday,
@@ -156,25 +162,81 @@ class ReportWidget : GlanceAppWidget() {
             }
         }
     }
+}
 
-    @Composable
-    private fun WidgetContent(
-        context: Context,
-        modifier: GlanceModifier = GlanceModifier,
-        foodDiaries: List<FoodDiary> = listOf(),
-        totalCaloriesToday: Float = 0f,
-        totalCarbohydrateToday: Float = 0f,
-        totalProteinToday: Float = 0f,
-        totalFatToday: Float = 0f,
-        maxDailyCalories: Float = 0f,
-        maxDailyCarbohydrate: Float = 0f,
-        maxDailyProtein: Float = 0f,
-        maxDailyFat: Float = 0f,
-        isSuccess: Boolean = false,
+@OptIn(ExperimentalGlancePreviewApi::class)
+@Preview(heightDp = 304, widthDp = 345)
+@Composable
+fun ReportWidgetContentPreview() {
+    val context = LocalContext.current
+    val maxDailyCalories = 2100.88f
+    val foodDiaries = List(10) {
+        FoodDiary(
+            id = it.toString(),
+            title = "Nasi Padang",
+            date = Instant.now().fromMillisToDayDateMonthYear,
+            time = Instant.now().fromMillisToHoursAndMinutes,
+            foodPictureUrl = "https://awsimages.detik.net.id/community/media/visual/2020/07/06/nasi-padang.jpeg?w=600&q=90",
+            totalFoodCalories = 500f
+        )
+    }
+
+    DietaryGlanceTheme {
+        ReportWidgetContent(
+            totalCarbohydrateToday = 200f,
+            totalProteinToday = 200f,
+            totalCaloriesToday = 200f,
+            totalFatToday = 200f,
+            maxDailyCarbohydrate = maxDailyCalories * 0.55f,
+            maxDailyProtein = maxDailyCalories * 0.15f,
+            maxDailyCalories = maxDailyCalories,
+            maxDailyFat = maxDailyCalories * 0.25f,
+            context = context,
+            foodDiaries = foodDiaries,
+            isSuccess = true
+        )
+    }
+}
+
+@Composable
+private fun ReportWidgetContent(
+    context: Context,
+    modifier: GlanceModifier = GlanceModifier,
+    foodDiaries: List<FoodDiary> = listOf(),
+    totalCaloriesToday: Float = 0f,
+    totalCarbohydrateToday: Float = 0f,
+    totalProteinToday: Float = 0f,
+    totalFatToday: Float = 0f,
+    maxDailyCalories: Float = 0f,
+    maxDailyCarbohydrate: Float = 0f,
+    maxDailyProtein: Float = 0f,
+    maxDailyFat: Float = 0f,
+    isSuccess: Boolean = false,
+) {
+    Scaffold(
+        titleBar = {
+            Row(
+                horizontalAlignment = Alignment.Start,
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = GlanceModifier.padding(horizontal = 16.dp)
+            ) {
+                Text(
+                    text = context.getString(R.string.app_name),
+                    style = TextStyle(
+                        fontFamily = FontFamily("roboto"),
+                        fontWeight = FontWeight.Bold,
+                        fontSize = DietaryTypeScaleTokens.TitleLargeSize,
+                        color = GlanceTheme.colors.onSurface,
+                        textAlign = TextAlign.Start
+                    ),
+                )
+            }
+        },
+        horizontalPadding = 16.dp,
+        modifier = modifier.fillMaxSize().appWidgetBackground()
+            .background(GlanceTheme.colors.surface)
     ) {
         LazyColumn(
-            modifier = modifier.fillMaxSize().appWidgetBackground()
-                .background(GlanceTheme.colors.surface).padding(16.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
             if (isSuccess) {

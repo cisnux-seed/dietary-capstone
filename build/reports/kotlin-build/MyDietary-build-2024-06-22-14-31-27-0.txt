@@ -1,0 +1,370 @@
+Gradle start parameters:
+  tasks = [:app:compileDebugSources]
+  excluded tasks = []
+  current dir = /Users/cisnux/temp/dietary-capstone
+  project properties args = [android.studio.version: 241.17890.1.2412.11993144, android.injected.attribution.file.location: /Users/cisnux/temp/dietary-capstone/.gradle, android.injected.invoked.from.ide: true]
+  system properties args = [idea.active: true, idea.version: 2024.1, idea.vendor.name: Google]
+
+Time metrics:
+  Total Gradle task time: 3.14 s
+  Spent time before task action: 0.11 s
+  Task action before worker execution: 0.16 s
+    Backup output: 0.00 s
+  Run compilation in Gradle worker: 2.43 s
+    Clear output: 0.01 s
+    Precise backup output: 0.00 s
+    Cleaning up the backup stash: 0.00 s
+    Connect to Kotlin daemon: 0.03 s
+    Calculate output size: 0.00 s
+    Run compilation: 0.87 s
+      Non incremental compilation in daemon: 1.52 s
+      Incremental compilation in daemon: 0.86 s
+        Calculate initial dirty sources set: 0.01 s
+          Detect removed classes: 0.01 s
+        Update caches: 0.01 s
+        Sources compilation round: 0.75 s
+          Compiler initialization time: 0.10 s
+          Compiler code analysis: 0.37 s
+          Compiler IR translation: 0.17 s
+          Compiler code generation: 0.10 s
+            Compiler IR lowering: 0.05 s
+            Compiler IR generation: 0.05 s
+        Shrink and save current classpath snapshot after compilation: 0.04 s
+          Shrink current classpath snapshot incrementally: 0.04 s
+            Load current classpath snapshot: 0.01 s
+            Load shrunk current classpath snapshot against previous lookups: 0.00 s
+          Save shrunk current classpath snapshot: 0.00 s
+  Start gradle worker: 0.01 s
+
+Size metrics:
+  Total size of the cache directory: 1.8 MB
+    ABI snapshot size: 3.0 KB
+  Increase memory usage: 454.6 MB
+  Total memory usage at the end of build: 1.4 GB
+  Total compiler iteration: 1
+    Number of lines analyzed: 501
+    Number of lines for code generation: 501
+    Analysis lines per second: 1339
+    Code generation lines per second: 5112
+    Compiler IR translation line number: 501
+    Compiler IR lowering line number: 501
+    Compiler IR generation line number: 501
+  Number of times classpath snapshot is shrunk and saved after compilation: 1
+    Number of classpath entries: 155
+    Size of classpath snapshot: 8.4 MB
+    Size of shrunk classpath snapshot: 190.7 KB
+  Number of times classpath snapshot is loaded: 1
+    Number of cache hits when loading classpath entry snapshots: 155
+  Start time of task action: 2078-12-12T15:02:51
+
+Build attributes:
+  REBUILD_REASON: Incremental compilation is not enabled
+
+Total time for Kotlin tasks: 1.03 s (32.9 % of all tasks time)
+Time  |% of Kotlin time|Task                   
+1.03 s|100.0 %         |:app:compileDebugKotlin
+
+Task ':app:kspDebugKotlin' finished in 1.75 s
+Task info:
+  Kotlin language version: 1.9
+Compilation log for task ':app:kspDebugKotlin':
+  Compiler perf stats:
+  INIT: Compiler initialized in 302 ms
+          ANALYZE    1034 ms   18739,845 loc/s
+          ANALYZE     162 ms  119611,111 loc/s
+  Find Java class performed 102 times, total time 33 ms
+  Type info performed 837 times, total time 608 ms
+  Call resolve performed 1173 times, total time 599 ms
+  Binary class from Kotlin file performed 4026 times, total time 275 ms
+  Find Java class performed 41 times, total time 34 ms
+  Find Java class performed 20 times, total time 1 ms
+Time metrics:
+  Total Gradle task time: 1.75 s
+  Spent time before task action: 0.06 s
+  Task action before worker execution: 0.13 s
+  Run compilation in Gradle worker: 1.55 s
+    Clear output: 0.01 s
+    Connect to Kotlin daemon: 0.03 s
+    Non incremental compilation in daemon: 1.52 s
+  Start gradle worker: 0.00 s
+Size metrics:
+  Increase memory usage: 215.3 MB
+  Total memory usage at the end of build: 594.9 MB
+  Start time of task action: 2024-06-22T07:31:25
+Build attributes:
+  REBUILD_REASON: Incremental compilation is not enabled
+
+Task ':app:compileDebugKotlin' finished in 1.03 s
+Task info:
+  Kotlin language version: 2.0
+Compilation log for task ':app:compileDebugKotlin':
+  Classpath changes info passed from Gradle task: NoChanges
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidget.provideGlance.2.2.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContentPreview.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidget.provideGlance.2.1.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.2.1.1.1.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.6.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.5.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.5)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.6)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.3)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.2)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.2.1.1.1.2)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidget.provideGlance.2.3)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.2.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.3.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.1.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.2.1.1.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidget.provideGlance.2)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidget.provideGlance.2.2.1.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.5.1.1.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.5.1.1)
+  Process SignatureChanged(fqName = .kotlin_module)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidget.provideGlance.2.1.1.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.5.1.1.1.2)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.5.1.1.1.2.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidget.provideGlance.1)
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidget.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidget.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/0.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidget$provideGlance$2.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidget$provideGlance$2.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/1.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidget$provideGlance$2$1$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidget$provideGlance$2$1$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/2.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidget$provideGlance$2$1$1$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidget$provideGlance$2$1$1$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/3.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidget$provideGlance$2$2$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidget$provideGlance$2$2$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/4.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidget$provideGlance$2$2$1$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidget$provideGlance$2$2$1$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/5.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidget$provideGlance$2$3.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidget$provideGlance$2$3.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/6.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidget$provideGlance$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidget$provideGlance$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/7.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidget$ReportWidgetEntryPoint.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidget$ReportWidgetEntryPoint.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/8.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/9.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContentPreview$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContentPreview$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/10.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/11.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/12.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$1$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$1$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/13.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$2.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$2.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/14.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$2$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$2$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/15.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$2$1$1$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$2$1$1$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/16.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$2$1$1$1$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$2$1$1$1$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/17.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$2$1$1$1$2.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$2$1$1$1$2.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/18.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$3.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$3.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/19.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$3$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$3$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/20.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$5.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$5.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/21.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$5$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$5$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/22.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$5$1$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$5$1$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/23.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$5$1$1$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$5$1$1$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/24.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$5$1$1$1$2.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$5$1$1$1$2.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/25.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$5$1$1$1$2$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$5$1$1$1$2$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/26.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$6.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$6.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/27.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$6$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$1$1$6$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/28.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/META-INF/app_debug.kotlin_module on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/META-INF/app_debug.kotlin_module to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/29.backup
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$2.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$2$1$1.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$2$1$1$1.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$2$1$2.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$2$1$2$1.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$2$1$2$1$1$1.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$2$1$2$1$1$1$1.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$2$1$2$1$1$1$2.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$2$1$3.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$2$1$3$1.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$2$1$5.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$2$1$5$1.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$2$1$5$1$1.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$2$1$5$1$1$1.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$2$1$5$1$1$1$2.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$2$1$5$1$1$1$2$1.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$2$1$6.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/widgets/ReportWidgetKt$ReportWidgetContent$2$1$6$1.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/kotlin/compileDebugKotlin/cacheable/dirty-sources.txt file as newly added
+  Compile iteration:
+    app/src/main/java/org/cisnux/mydietary/presentation/widgets/ReportWidget.kt <- was modified since last time
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/kotlin/compileDebugKotlin/cacheable/dirty-sources.txt
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.2.1.1.1.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.6.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.5.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.5)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.6)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.3)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.5.1.1.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.2)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.2.1.1.1.2)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.5.1.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.2.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.5.1.1.1.2)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.3.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.1.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.5.1.1.1.2.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.widgets.ReportWidgetKt.ReportWidgetContent.1.1.2.1.1.1)
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/kotlin/compileDebugKotlin/cacheable/last-build.bin to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/30.backup
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/kotlin/compileDebugKotlin/local-state/build-history.bin to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/31.backup
+  [ClasspathSnapshot] Shrunk current classpath snapshot after compilation (shrink mode = ChangedLookupsUnchangedClasspath), retained 843 / 22444 classes
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/counters.tab to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups4320970994414757403/32.backup
+  Cleaning up stash
+  Incremental compilation completed
+Time metrics:
+  Total Gradle task time: 1.03 s
+  Spent time before task action: 0.05 s
+  Task action before worker execution: 0.03 s
+    Backup output: 0.00 s
+  Run compilation in Gradle worker: 0.88 s
+    Precise backup output: 0.00 s
+    Cleaning up the backup stash: 0.00 s
+    Connect to Kotlin daemon: 0.01 s
+    Calculate output size: 0.00 s
+    Run compilation: 0.87 s
+      Incremental compilation in daemon: 0.86 s
+        Calculate initial dirty sources set: 0.01 s
+          Detect removed classes: 0.01 s
+        Update caches: 0.01 s
+        Sources compilation round: 0.75 s
+          Compiler initialization time: 0.10 s
+          Compiler code analysis: 0.37 s
+          Compiler IR translation: 0.17 s
+          Compiler code generation: 0.10 s
+            Compiler IR lowering: 0.05 s
+            Compiler IR generation: 0.05 s
+        Shrink and save current classpath snapshot after compilation: 0.04 s
+          Shrink current classpath snapshot incrementally: 0.04 s
+            Load current classpath snapshot: 0.01 s
+            Load shrunk current classpath snapshot against previous lookups: 0.00 s
+          Save shrunk current classpath snapshot: 0.00 s
+  Start gradle worker: 0.01 s
+Size metrics:
+  Total size of the cache directory: 1.8 MB
+    ABI snapshot size: 3.0 KB
+  Increase memory usage: 239.2 MB
+  Total memory usage at the end of build: 834.2 MB
+  Total compiler iteration: 1
+    Number of lines analyzed: 501
+    Number of lines for code generation: 501
+    Analysis lines per second: 1339
+    Code generation lines per second: 5112
+    Compiler IR translation line number: 501
+    Compiler IR lowering line number: 501
+    Compiler IR generation line number: 501
+  Number of times classpath snapshot is shrunk and saved after compilation: 1
+    Number of classpath entries: 155
+    Size of classpath snapshot: 8.4 MB
+    Size of shrunk classpath snapshot: 190.7 KB
+  Number of times classpath snapshot is loaded: 1
+    Number of cache hits when loading classpath entry snapshots: 155
+  Start time of task action: 2024-06-22T07:31:26
+GC metrics:
+  PS MarkSweep:
+    GC count: 0
+    GC time: 0.00 s
+  PS Scavenge:
+    GC count: 0
+    GC time: 0.00 s
+
+Task ':app:extractIncludeDebugProto' finished in 0.16 s
+Time metrics:
+  Total Gradle task time: 0.16 s
+
+Task ':app:compileDebugJavaWithJavac' finished in 0.13 s
+Time metrics:
+  Total Gradle task time: 0.13 s
+
+Task ':app:processDebugResources' finished in 0.02 s
+Time metrics:
+  Total Gradle task time: 0.02 s
+
+Task ':app:checkDebugAarMetadata' finished in 0.01 s
+Time metrics:
+  Total Gradle task time: 0.01 s
+
+Task ':app:processDebugMainManifest' finished in 0.01 s
+Time metrics:
+  Total Gradle task time: 0.01 s
+
+Task ':app:mapDebugSourceSetPaths' finished in 0.01 s
+Time metrics:
+  Total Gradle task time: 0.01 s
+
+Task ':app:javaPreCompileDebug' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:mergeDebugResources' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:parseDebugLocalResources' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:extractDebugProto' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:extractProto' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:generateDebugProto' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:processDebugGoogleServices' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:packageDebugResources' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:extractDeepLinksDebug' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:processDebugManifest' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:checkKotlinGradlePluginConfigurationErrors' was skipped: SKIPPED
+
+Task ':app:preBuild' finished in 0.00 s
+
+Task ':app:preDebugBuild' finished in 0.00 s
+
+Task ':app:generateDebugResValues' finished in 0.00 s
+
+Task ':app:generateDebugResources' finished in 0.00 s
+
+Task ':app:createDebugCompatibleScreenManifests' finished in 0.00 s
+
+Task ':app:processDebugManifestForPackage' finished in 0.00 s
+
+Task ':app:compileDebugSources' finished in 0.00 s
+

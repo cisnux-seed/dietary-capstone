@@ -6,6 +6,14 @@
         <entry key="Firebase Crashlytics">
           <value>
             <InsightsFilterSettings>
+              <option name="connection">
+                <ConnectionSetting>
+                  <option name="appId" value="org.cisnux.mydietary" />
+                  <option name="mobileSdkAppId" value="1:871244307697:android:bea7356e2ff69b23ba9d50" />
+                  <option name="projectId" value="dietary-app-407405" />
+                  <option name="projectNumber" value="871244307697" />
+                </ConnectionSetting>
+              </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
               <option name="timeIntervalDays" value="THIRTY_DAYS" />
               <option name="visibilityType" value="ALL" />

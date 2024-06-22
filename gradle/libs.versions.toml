@@ -44,6 +44,8 @@ androidx-credentials-play-services-auth = { module = "androidx.credentials:crede
 androidx-uiautomator = { module = "androidx.test.uiautomator:uiautomator", version.ref = "uiautomator" }
 googleid = { module = "com.google.android.libraries.identity.googleid:googleid", version.ref = "googleid" }
 androidx-glance-appwidget = { module = "androidx.glance:glance-appwidget", version.ref = "glanceAppwidget" }
+androidx-glance-appwidget-preview = { module = "androidx.glance:glance-appwidget-preview", version.ref = "glanceAppwidget" }
+androidx-glance-preview = { module = "androidx.glance:glance-preview", version.ref = "glanceAppwidget" }
 google-services = { group = "com.google.gms", name = "google-services", version.ref = "googleServices" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
