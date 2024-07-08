@@ -1,0 +1,486 @@
+Gradle start parameters:
+  tasks = [:app:assembleDebug]
+  excluded tasks = []
+  current dir = /Users/cisnux/temp/dietary-capstone
+  project properties args = [android.studio.version: 241.17890.1.2412.11993144, android.injected.enableStableIds: true, android.injected.attribution.file.location: /Users/cisnux/temp/dietary-capstone/.gradle, android.injected.build.api: 34, android.injected.build.abi: arm64-v8a, android.injected.invoked.from.ide: true]
+  system properties args = [idea.active: true, idea.version: 2024.1, idea.vendor.name: Google]
+
+Time metrics:
+  Total Gradle task time: 12.21 s
+  Spent time before task action: 0.21 s
+  Task action before worker execution: 0.42 s
+  Run compilation in Gradle worker: 8.87 s
+    Clear jar cache: 0.00 s
+    Clear output: 0.02 s
+    Precise backup output: 0.01 s
+    Cleaning up the backup stash: 0.00 s
+    Connect to Kotlin daemon: 0.27 s
+    Calculate output size: 0.00 s
+    Run compilation: 2.71 s
+      Non incremental compilation in daemon: 5.89 s
+      Incremental compilation in daemon: 2.70 s
+        Calculate initial dirty sources set: 0.01 s
+          Detect removed classes: 0.01 s
+        Update caches: 0.02 s
+        Sources compilation round: 2.34 s
+          Compiler initialization time: 0.05 s
+          Compiler code analysis: 1.35 s
+          Compiler IR translation: 0.48 s
+          Compiler code generation: 0.44 s
+            Compiler IR lowering: 0.15 s
+            Compiler IR generation: 0.29 s
+        Shrink and save current classpath snapshot after compilation: 0.20 s
+          Shrink current classpath snapshot incrementally: 0.19 s
+            Load current classpath snapshot: 0.04 s
+            Load shrunk current classpath snapshot against previous lookups: 0.02 s
+          Save shrunk current classpath snapshot: 0.01 s
+  Start gradle worker: 0.01 s
+
+Size metrics:
+  Total size of the cache directory: 1.9 MB
+    ABI snapshot size: 4.7 KB
+  Increase memory usage: -375644800 B
+  Total memory usage at the end of build: 1.3 GB
+  Total compiler iteration: 1
+    Number of lines analyzed: 408
+    Number of lines for code generation: 408
+    Analysis lines per second: 302
+    Code generation lines per second: 923
+    Compiler IR translation line number: 408
+    Compiler IR lowering line number: 408
+    Compiler IR generation line number: 408
+  Number of times classpath snapshot is shrunk and saved after compilation: 1
+    Number of classpath entries: 155
+    Size of classpath snapshot: 8.4 MB
+    Size of shrunk classpath snapshot: 191.2 KB
+  Number of times classpath snapshot is loaded: 1
+    Number of cache hits when loading classpath entry snapshots: 155
+  Start time of task action: 2079-01-14T11:03:10
+
+Build attributes:
+  REBUILD_REASON: Incremental compilation is not enabled
+
+Total time for Kotlin tasks: 2.91 s (23.8 % of all tasks time)
+Time  |% of Kotlin time|Task                   
+2.91 s|100.0 %         |:app:compileDebugKotlin
+
+Task ':app:kspDebugKotlin' finished in 6.69 s
+Task info:
+  Kotlin language version: 1.9
+Compilation log for task ':app:kspDebugKotlin':
+  Compiler perf stats:
+  INIT: Compiler initialized in 2023 ms
+          ANALYZE    3583 ms    5432.319 loc/s
+  Find Java class performed 60 times, total time 35 ms
+  Type info performed 492 times, total time 1172 ms
+  Call resolve performed 503 times, total time 1040 ms
+  Binary class from Kotlin file performed 6827 times, total time 1536 ms
+  Find Java class performed 0 times
+  Find Java class performed 4 times, total time 1 ms
+  Find Java class performed 54 times, total time 19 ms
+  Find Java class performed 0 times
+  Find Java class performed 3 times, total time 17 ms
+  Find Java class performed 3 times, total time 17 ms
+  Find Java class performed 15 times, total time 0 ms
+Time metrics:
+  Total Gradle task time: 6.69 s
+  Spent time before task action: 0.15 s
+  Task action before worker execution: 0.37 s
+  Run compilation in Gradle worker: 6.15 s
+    Clear jar cache: 0.00 s
+    Clear output: 0.02 s
+    Connect to Kotlin daemon: 0.26 s
+    Non incremental compilation in daemon: 5.89 s
+  Start gradle worker: 0.00 s
+Size metrics:
+  Increase memory usage: 190.8 MB
+  Total memory usage at the end of build: 940.4 MB
+  Start time of task action: 2024-07-08T17:31:32
+Build attributes:
+  REBUILD_REASON: Incremental compilation is not enabled
+
+Task ':app:compileDebugKotlin' finished in 2.91 s
+Task info:
+  Kotlin language version: 2.0
+Compilation log for task ':app:compileDebugKotlin':
+  Classpath changes info passed from Gradle task: NoChanges
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.8)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.7)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.6)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.4)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.3)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.ComposableSingletons.HealthProfileFormKt.lambda-10.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileFormPreview.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.19)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.ComposableSingletons.HealthProfileFormKt)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.ComposableSingletons.HealthProfileFormKt.lambda-15.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.17)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.ComposableSingletons.HealthProfileFormKt.lambda-12.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.ComposableSingletons.HealthProfileFormKt.lambda-11.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.ComposableSingletons.HealthProfileFormKt.lambda-14.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.ComposableSingletons.HealthProfileFormKt.lambda-13.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.11)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.10)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.16)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.13)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.14)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.ComposableSingletons.HealthProfileFormKt.lambda-1.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.19.5.1.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.ComposableSingletons.HealthProfileFormKt.lambda-4.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.ComposableSingletons.HealthProfileFormKt.lambda-5.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.ComposableSingletons.HealthProfileFormKt.lambda-2.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.ComposableSingletons.HealthProfileFormKt.lambda-3.1)
+  Process SignatureChanged(fqName = .kotlin_module)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.ComposableSingletons.HealthProfileFormKt.lambda-8.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.19.2)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.ComposableSingletons.HealthProfileFormKt.lambda-9.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.19.3)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.ComposableSingletons.HealthProfileFormKt.lambda-6.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.ComposableSingletons.HealthProfileFormKt.lambda-7.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.19.5)
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/0.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-1$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-1$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/1.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-2$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-2$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/2.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-3$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-3$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/3.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-4$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-4$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/4.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-5$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-5$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/5.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-6$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-6$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/6.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-7$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-7$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/7.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-8$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-8$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/8.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-9$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-9$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/9.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-10$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-10$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/10.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-11$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-11$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/11.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-12$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-12$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/12.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-13$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-13$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/13.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-14$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-14$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/14.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-15$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/ComposableSingletons$HealthProfileFormKt$lambda-15$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/15.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/16.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileFormPreview$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileFormPreview$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/17.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$3.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$3.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/18.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$4.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$4.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/19.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$6.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$6.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/20.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$7.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$7.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/21.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$8.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$8.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/22.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$10.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$10.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/23.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$11.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$11.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/24.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$13.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$13.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/25.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$14.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$14.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/26.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$16.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$16.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/27.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$17.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$17.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/28.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$19.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$19.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/29.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$19$2.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$19$2.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/30.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$19$3.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$19$3.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/31.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$19$5.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$19$5.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/32.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$19$5$1$1.class on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$19$5$1$1.class to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/33.backup
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/META-INF/app_debug.kotlin_module on clearing cache for /Users/cisnux/temp/dietary-capstone/app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/META-INF/app_debug.kotlin_module to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/34.backup
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$1$2.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$1$3.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$1$5.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$1$6.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$1$8.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$1$9.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$1$11.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$1$12.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$1$14.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$1$14$2.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$1$14$3.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$1$14$5.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$1$14$5$1$1.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/tmp/kotlin-classes/debug/org/cisnux/mydietary/presentation/ui/components/HealthProfileFormKt$HealthProfileForm$1$5.class file as newly added
+  Marking the /Users/cisnux/temp/dietary-capstone/app/build/kotlin/compileDebugKotlin/cacheable/dirty-sources.txt file as newly added
+  Compile iteration:
+    app/src/main/java/org/cisnux/mydietary/presentation/ui/components/HealthProfileForm.kt <- was modified since last time
+  Deleting /Users/cisnux/temp/dietary-capstone/app/build/kotlin/compileDebugKotlin/cacheable/dirty-sources.txt
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.11)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.10)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.16)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.13)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.14)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.8)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.7)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.6)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.19.5.1.1)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.19.2)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.19.3)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.19)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.17)
+  Process SignatureChanged(fqName = org.cisnux.mydietary.presentation.ui.components.HealthProfileFormKt.HealthProfileForm.1.19.5)
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/kotlin/compileDebugKotlin/cacheable/last-build.bin to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/35.backup
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/kotlin/compileDebugKotlin/local-state/build-history.bin to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/36.backup
+  [ClasspathSnapshot] Shrunk current classpath snapshot after compilation (shrink mode = ChangedLookupsUnchangedClasspath), retained 846 / 22444 classes
+  Moving /Users/cisnux/temp/dietary-capstone/app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/counters.tab to the stash as /var/folders/4r/5ykklqds4bd0364_qtyvkwnr0000gn/T/kotlin-backups7131681630648323635/37.backup
+  Cleaning up stash
+  Incremental compilation completed
+Time metrics:
+  Total Gradle task time: 2.91 s
+  Spent time before task action: 0.06 s
+  Task action before worker execution: 0.05 s
+  Run compilation in Gradle worker: 2.72 s
+    Precise backup output: 0.01 s
+    Cleaning up the backup stash: 0.00 s
+    Connect to Kotlin daemon: 0.01 s
+    Calculate output size: 0.00 s
+    Run compilation: 2.71 s
+      Incremental compilation in daemon: 2.70 s
+        Calculate initial dirty sources set: 0.01 s
+          Detect removed classes: 0.01 s
+        Update caches: 0.02 s
+        Sources compilation round: 2.34 s
+          Compiler initialization time: 0.05 s
+          Compiler code analysis: 1.35 s
+          Compiler IR translation: 0.48 s
+          Compiler code generation: 0.44 s
+            Compiler IR lowering: 0.15 s
+            Compiler IR generation: 0.29 s
+        Shrink and save current classpath snapshot after compilation: 0.20 s
+          Shrink current classpath snapshot incrementally: 0.19 s
+            Load current classpath snapshot: 0.04 s
+            Load shrunk current classpath snapshot against previous lookups: 0.02 s
+          Save shrunk current classpath snapshot: 0.01 s
+  Start gradle worker: 0.00 s
+Size metrics:
+  Total size of the cache directory: 1.9 MB
+    ABI snapshot size: 4.7 KB
+  Increase memory usage: -575713528 B
+  Total memory usage at the end of build: 393.6 MB
+  Total compiler iteration: 1
+    Number of lines analyzed: 408
+    Number of lines for code generation: 408
+    Analysis lines per second: 302
+    Code generation lines per second: 923
+    Compiler IR translation line number: 408
+    Compiler IR lowering line number: 408
+    Compiler IR generation line number: 408
+  Number of times classpath snapshot is shrunk and saved after compilation: 1
+    Number of classpath entries: 155
+    Size of classpath snapshot: 8.4 MB
+    Size of shrunk classpath snapshot: 191.2 KB
+  Number of times classpath snapshot is loaded: 1
+    Number of cache hits when loading classpath entry snapshots: 155
+  Start time of task action: 2024-07-08T17:31:38
+GC metrics:
+  PS MarkSweep:
+    GC count: 0
+    GC time: 0.00 s
+  PS Scavenge:
+    GC count: 1
+    GC time: 0.22 s
+
+Task ':app:extractIncludeDebugProto' finished in 0.48 s
+Time metrics:
+  Total Gradle task time: 0.48 s
+
+Task ':app:dexBuilderDebug' finished in 0.45 s
+Time metrics:
+  Total Gradle task time: 0.45 s
+
+Task ':app:hiltAggregateDepsDebug' finished in 0.38 s
+Time metrics:
+  Total Gradle task time: 0.38 s
+
+Task ':app:mergeProjectDexDebug' finished in 0.29 s
+Time metrics:
+  Total Gradle task time: 0.29 s
+
+Task ':app:packageDebug' finished in 0.19 s
+Time metrics:
+  Total Gradle task time: 0.19 s
+
+Task ':app:compileDebugJavaWithJavac' finished in 0.18 s
+Time metrics:
+  Total Gradle task time: 0.18 s
+
+Task ':app:transformDebugClassesWithAsm' finished in 0.14 s
+Time metrics:
+  Total Gradle task time: 0.14 s
+
+Task ':app:mergeExtDexDebug' finished in 0.09 s
+Time metrics:
+  Total Gradle task time: 0.09 s
+
+Task ':app:hiltJavaCompileDebug' finished in 0.07 s
+Time metrics:
+  Total Gradle task time: 0.07 s
+
+Task ':app:processDebugResources' finished in 0.07 s
+Time metrics:
+  Total Gradle task time: 0.07 s
+
+Task ':app:processDebugMainManifest' finished in 0.05 s
+Time metrics:
+  Total Gradle task time: 0.05 s
+
+Task ':app:checkDebugAarMetadata' finished in 0.04 s
+Time metrics:
+  Total Gradle task time: 0.04 s
+
+Task ':app:checkDebugDuplicateClasses' finished in 0.04 s
+Time metrics:
+  Total Gradle task time: 0.04 s
+
+Task ':app:mergeDebugGlobalSynthetics' finished in 0.04 s
+Time metrics:
+  Total Gradle task time: 0.04 s
+
+Task ':app:mapDebugSourceSetPaths' finished in 0.03 s
+Time metrics:
+  Total Gradle task time: 0.03 s
+
+Task ':app:mergeDebugNativeLibs' finished in 0.02 s
+Time metrics:
+  Total Gradle task time: 0.02 s
+
+Task ':app:mergeDebugAssets' finished in 0.01 s
+Time metrics:
+  Total Gradle task time: 0.01 s
+
+Task ':app:mergeDebugResources' finished in 0.01 s
+Time metrics:
+  Total Gradle task time: 0.01 s
+
+Task ':app:generateDebugProto' finished in 0.01 s
+Time metrics:
+  Total Gradle task time: 0.01 s
+
+Task ':app:mergeDebugNativeDebugMetadata' was skipped: NO-SOURCE
+Time metrics:
+  Total Gradle task time: 0.01 s
+
+Task ':app:extractDebugProto' finished in 0.01 s
+Time metrics:
+  Total Gradle task time: 0.01 s
+
+Task ':app:parseDebugLocalResources' finished in 0.01 s
+Time metrics:
+  Total Gradle task time: 0.01 s
+
+Task ':app:javaPreCompileDebug' finished in 0.01 s
+Time metrics:
+  Total Gradle task time: 0.01 s
+
+Task ':app:mergeDebugJavaResource' finished in 0.01 s
+Time metrics:
+  Total Gradle task time: 0.01 s
+
+Task ':app:processDebugGoogleServices' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:processDebugJavaRes' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:extractDeepLinksDebug' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:processDebugManifest' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:mergeDebugStartupProfile' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:stripDebugDebugSymbols' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:extractProto' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:generateDebugResValues' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:packageDebugResources' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:createDebugCompatibleScreenManifests' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:mergeDebugShaders' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:compressDebugAssets' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:desugarDebugFileDependencies' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:mergeLibDexDebug' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:mergeDebugJniLibFolders' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:writeDebugAppMetadata' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:preBuild' finished in 0.00 s
+
+Task ':app:preDebugBuild' finished in 0.00 s
+
+Task ':app:checkKotlinGradlePluginConfigurationErrors' was skipped: SKIPPED
+
+Task ':app:generateDebugResources' finished in 0.00 s
+
+Task ':app:processDebugManifestForPackage' finished in 0.00 s
+
+Task ':app:compileDebugShaders' was skipped: NO-SOURCE
+
+Task ':app:generateDebugAssets' finished in 0.00 s
+
+Task ':app:validateSigningDebug' finished in 0.00 s
+
+Task ':app:writeDebugSigningConfigVersions' finished in 0.00 s
+
+Task ':app:createDebugApkListingFileRedirect' finished in 0.00 s
+
+Task ':app:assembleDebug' finished in 0.00 s
+

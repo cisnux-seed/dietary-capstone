@@ -53,7 +53,7 @@
     <string name="username_placeholder">Buat usernamemu</string>
     <string name="username_label">Username</string>
     <string name="username_error_text">Tolong masukkan username dengan minimum 6 karakter dan maximum 20 karakter tanpa spasi dan spesial karakter seperti  @, $, dan lainnya</string>
-    <string name="age_placeholder">Berapa usiamu?</string>
+    <string name="age_placeholder">Kapan kamu lahir?</string>
     <string name="age_error_text">Kamu harus berusia minimal 18 tahun</string>
     <string name="weight_placeholder">Berapa beratmu?</string>
     <string name="weight_error_text">Berat harus berupa angka dan lebih besar dari 0</string>
@@ -193,4 +193,6 @@
     <string name="save_food_diary">simpan diary makanan</string>
     <string name="take_a_picture">ambil gambar</string>
     <string name="list_of_foods">daftar makanan</string>
+    <string name="birthdate_label">Tanggal Lahir</string>
+    <string name="trailing_years">thn</string>
 </resources>

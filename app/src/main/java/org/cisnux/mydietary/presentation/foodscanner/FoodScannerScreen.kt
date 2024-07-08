@@ -1033,7 +1033,7 @@ private fun PredictedResultDialog(
 
 
 @Composable
-fun QuestionListItem(
+private fun QuestionListItem(
     foodName: String,
     answeredQuestions: List<AnsweredQuestion>,
     onAnswerChange: (newAnswer: AnsweredQuestion.Choice, index: Int) -> Unit,

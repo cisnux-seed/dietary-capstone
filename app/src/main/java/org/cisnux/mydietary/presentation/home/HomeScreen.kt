@@ -338,30 +338,36 @@ fun HomeScreen(
                 },
                 isDialogOpen = isCameraDialogOpen
             )
-            if (openDatePickerDialog) DatePickerDialog(onDismissRequest = {
-                openDatePickerDialog = false
-            }, confirmButton = {
-                TextButton(
-                    onClick = {
+            if (openDatePickerDialog)
+                DatePickerDialog(
+                    onDismissRequest = {
                         openDatePickerDialog = false
-                        viewModel.updateSelectedDate(datePickerState.selectedDateMillis?.let { millis ->
-                            Instant.ofEpochMilli(
-                                millis
-                            )
-                        } ?: Instant.now())
-                    }, enabled = confirmEnabled
+                    },
+                    confirmButton = {
+                        TextButton(
+                            onClick = {
+                                openDatePickerDialog = false
+                                viewModel.updateSelectedDate(datePickerState.selectedDateMillis?.let { millis ->
+                                    Instant.ofEpochMilli(
+                                        millis
+                                    )
+                                } ?: Instant.now())
+                            },
+                            enabled = confirmEnabled
+                        ) {
+                            Text(stringResource(R.string.ok))
+                        }
+                    },
+                    dismissButton = {
+                        TextButton(onClick = {
+                            openDatePickerDialog = false
+                        }) {
+                            Text(stringResource(R.string.cancel))
+                        }
+                    }
                 ) {
-                    Text(stringResource(R.string.ok))
+                    DatePicker(state = datePickerState)
                 }
-            }, dismissButton = {
-                TextButton(onClick = {
-                    openDatePickerDialog = false
-                }) {
-                    Text(stringResource(R.string.cancel))
-                }
-            }) {
-                DatePicker(state = datePickerState)
-            }
         },
         shouldBottomBarOpen = !searchBarState.active,
         snackbarHostState = snackbarHostState,

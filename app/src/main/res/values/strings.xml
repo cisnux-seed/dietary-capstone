@@ -53,7 +53,7 @@
     <string name="username_placeholder">Create your username</string>
     <string name="username_label">Username</string>
     <string name="username_error_text">Please enter a username between 6 and 20 characters without spaces or special characters like @, $, etc.</string>
-    <string name="age_placeholder">What\'s your age?</string>
+    <string name="age_placeholder">What\'s your birth date?</string>
     <string name="age_error_text">You must be at least 18 years old</string>
     <string name="weight_placeholder">What\'s your weight?</string>
     <string name="weight_error_text">Weight must be a number greater than 0</string>
@@ -230,4 +230,6 @@ To the maximum extent permitted by applicable law, you agree to indemnify and ho
     <string name="take_a_picture">take a picture</string>
     <string name="list_of_foods">list of foods</string>
     <string name="navigate_up" translatable="false">navigate up</string>
+    <string name="birthdate_label">Birth Date</string>
+    <string name="trailing_years">yrs</string>
 </resources>

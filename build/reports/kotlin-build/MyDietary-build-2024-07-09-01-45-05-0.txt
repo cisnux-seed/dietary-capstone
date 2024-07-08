@@ -1,0 +1,436 @@
+Gradle start parameters:
+  tasks = [:app:assembleRelease]
+  excluded tasks = []
+  current dir = /Users/cisnux/temp/dietary-capstone
+  project properties args = [android.studio.version: 241.17890.1.2412.11993144, android.injected.signing.store.password: fajrapredator12, android.injected.attribution.file.location: /Users/cisnux/temp/dietary-capstone/.gradle, android.injected.signing.key.password: @Fajrapredator12, android.injected.invoked.from.ide: true, android.injected.apk.location: /Users/cisnux/temp/dietary-capstone/app, android.injected.signing.key.alias: key0, android.injected.signing.store.file: /Users/cisnux/temp/dietary-capstone/cisnux]
+  system properties args = [idea.active: true, idea.version: 2024.1, idea.vendor.name: Google]
+
+Time metrics:
+  Total Gradle task time: 128.25 s
+  Spent time before task action: 0.68 s
+  Task action before worker execution: 1.29 s
+  Run compilation in Gradle worker: 30.10 s
+    Clear jar cache: 0.00 s
+    Clear output: 0.02 s
+    Connect to Kotlin daemon: 0.67 s
+    Calculate output size: 0.00 s
+    Run compilation: 17.30 s
+      Non incremental compilation in daemon: 12.09 s
+      Incremental compilation in daemon: 17.28 s
+        Update caches: 0.04 s
+        Sources compilation round: 16.60 s
+          Compiler initialization time: 0.06 s
+          Compiler code analysis: 10.73 s
+          Compiler IR translation: 1.39 s
+          Compiler code generation: 4.42 s
+            Compiler IR lowering: 1.53 s
+            Compiler IR generation: 2.89 s
+        Shrink and save current classpath snapshot after compilation: 0.06 s
+          Shrink current classpath snapshot non-incrementally: 0.05 s
+            Load current classpath snapshot: 0.01 s
+          Save shrunk current classpath snapshot: 0.00 s
+  Start gradle worker: 0.02 s
+
+Size metrics:
+  Total size of the cache directory: 1.8 MB
+    ABI snapshot size: 49 B
+  Increase memory usage: 167.5 MB
+  Total memory usage at the end of build: 751.3 MB
+  Total compiler iteration: 1
+    Number of lines analyzed: 19543
+    Number of lines for code generation: 19543
+    Analysis lines per second: 1822
+    Code generation lines per second: 4425
+    Compiler IR translation line number: 19543
+    Compiler IR lowering line number: 19543
+    Compiler IR generation line number: 19543
+  Number of times classpath snapshot is shrunk and saved after compilation: 1
+    Number of classpath entries: 151
+    Size of classpath snapshot: 8.4 MB
+    Size of shrunk classpath snapshot: 191.6 KB
+  Number of times classpath snapshot is loaded: 1
+    Number of cache hits when loading classpath entry snapshots: 149
+    Number of cache misses when loading classpath entry snapshots: 2
+  Start time of task action: 2079-01-14T13:28:07
+
+Build attributes:
+  REBUILD_REASON:
+    Incremental compilation is not enabled(1)
+    Unknown Gradle changes(1)
+
+Total time for Kotlin tasks: 19.39 s (15.1 % of all tasks time)
+Time   |% of Kotlin time|Task                     
+19.39 s|100.0 %         |:app:compileReleaseKotlin
+
+Task ':app:mergeExtDexRelease' finished in 35.71 s
+Time metrics:
+  Total Gradle task time: 35.71 s
+
+Task ':app:lintVitalAnalyzeRelease' finished in 23.74 s
+Time metrics:
+  Total Gradle task time: 23.74 s
+
+Task ':app:compileReleaseKotlin' finished in 19.39 s
+Task info:
+  Kotlin language version: 2.0
+Compilation log for task ':app:compileReleaseKotlin':
+  Non-incremental compilation will be performed: UNKNOWN_CHANGES_IN_GRADLE_INPUTS
+  Cleaning 3 output directories
+  [ClasspathSnapshot] Shrunk current classpath snapshot after compilation (shrink mode = NonIncremental), retained 848 / 22342 classes
+Time metrics:
+  Total Gradle task time: 19.39 s
+  Spent time before task action: 0.40 s
+  Task action before worker execution: 0.61 s
+  Run compilation in Gradle worker: 17.32 s
+    Clear jar cache: 0.00 s
+    Clear output: 0.02 s
+    Connect to Kotlin daemon: 0.01 s
+    Calculate output size: 0.00 s
+    Run compilation: 17.30 s
+      Incremental compilation in daemon: 17.28 s
+        Update caches: 0.04 s
+        Sources compilation round: 16.60 s
+          Compiler initialization time: 0.06 s
+          Compiler code analysis: 10.73 s
+          Compiler IR translation: 1.39 s
+          Compiler code generation: 4.42 s
+            Compiler IR lowering: 1.53 s
+            Compiler IR generation: 2.89 s
+        Shrink and save current classpath snapshot after compilation: 0.06 s
+          Shrink current classpath snapshot non-incrementally: 0.05 s
+            Load current classpath snapshot: 0.01 s
+          Save shrunk current classpath snapshot: 0.00 s
+  Start gradle worker: 0.01 s
+Size metrics:
+  Total size of the cache directory: 1.8 MB
+    ABI snapshot size: 49 B
+  Increase memory usage: -12703504 B
+  Total memory usage at the end of build: 371.4 MB
+  Total compiler iteration: 1
+    Number of lines analyzed: 19543
+    Number of lines for code generation: 19543
+    Analysis lines per second: 1822
+    Code generation lines per second: 4425
+    Compiler IR translation line number: 19543
+    Compiler IR lowering line number: 19543
+    Compiler IR generation line number: 19543
+  Number of times classpath snapshot is shrunk and saved after compilation: 1
+    Number of classpath entries: 151
+    Size of classpath snapshot: 8.4 MB
+    Size of shrunk classpath snapshot: 191.6 KB
+  Number of times classpath snapshot is loaded: 1
+    Number of cache hits when loading classpath entry snapshots: 149
+    Number of cache misses when loading classpath entry snapshots: 2
+  Start time of task action: 2024-07-08T18:44:10
+Build attributes:
+  REBUILD_REASON: Unknown Gradle changes
+GC metrics:
+  PS MarkSweep:
+    GC count: 3
+    GC time: 1.58 s
+  PS Scavenge:
+    GC count: 3
+    GC time: 1.43 s
+
+Task ':app:kspReleaseKotlin' finished in 13.80 s
+Task info:
+  Kotlin language version: 1.9
+Compilation log for task ':app:kspReleaseKotlin':
+  Compiler perf stats:
+  INIT: Compiler initialized in 2659 ms
+          ANALYZE    8513 ms    2287.443 loc/s
+          ANALYZE     386 ms   50448.187 loc/s
+          ANALYZE     204 ms   95455.882 loc/s
+  Find Java class performed 60 times, total time 35 ms
+  Type info performed 1326 times, total time 1908 ms
+  Call resolve performed 1667 times, total time 1837 ms
+  Binary class from Kotlin file performed 20330 times, total time 5611 ms
+  Find Java class performed 0 times
+  Find Java class performed 4 times, total time 1 ms
+  Find Java class performed 54 times, total time 19 ms
+  Find Java class performed 0 times
+  Find Java class performed 3 times, total time 17 ms
+  Find Java class performed 3 times, total time 17 ms
+  Find Java class performed 15 times, total time 0 ms
+  Find Java class performed 0 times
+  Find Java class performed 0 times
+  Find Java class performed 15 times, total time 2 ms
+  Find Java class performed 0 times
+  Find Java class performed 0 times
+  Find Java class performed 15 times, total time 1 ms
+  Find Java class performed 0 times
+  Find Java class performed 0 times
+  Find Java class performed 15 times, total time 3 ms
+  Find Java class performed 0 times
+  Find Java class performed 3 times, total time 9 ms
+  Find Java class performed 15 times, total time 1 ms
+  Find Java class performed 0 times
+  Find Java class performed 0 times
+  Find Java class performed 15 times, total time 2 ms
+  Find Java class performed 0 times
+  Find Java class performed 0 times
+  Find Java class performed 15 times, total time 7 ms
+  Find Java class performed 0 times
+  Find Java class performed 0 times
+  Find Java class performed 15 times, total time 3 ms
+  Find Java class performed 0 times
+  Find Java class performed 0 times
+  Find Java class performed 15 times, total time 3 ms
+  Find Java class performed 0 times
+  Find Java class performed 0 times
+  Find Java class performed 15 times, total time 1 ms
+  Find Java class performed 0 times
+  Find Java class performed 0 times
+  Find Java class performed 101 times, total time 25 ms
+Time metrics:
+  Total Gradle task time: 13.80 s
+  Spent time before task action: 0.28 s
+  Task action before worker execution: 0.68 s
+  Run compilation in Gradle worker: 12.77 s
+    Clear output: 0.00 s
+    Connect to Kotlin daemon: 0.67 s
+    Non incremental compilation in daemon: 12.09 s
+  Start gradle worker: 0.01 s
+Size metrics:
+  Increase memory usage: 179.6 MB
+  Total memory usage at the end of build: 379.9 MB
+  Start time of task action: 2024-07-08T18:43:56
+Build attributes:
+  REBUILD_REASON: Incremental compilation is not enabled
+
+Task ':app:compileReleaseJavaWithJavac' finished in 5.31 s
+Time metrics:
+  Total Gradle task time: 5.31 s
+
+Task ':app:hiltJavaCompileRelease' finished in 4.81 s
+Time metrics:
+  Total Gradle task time: 4.81 s
+
+Task ':app:mergeDexRelease' finished in 4.54 s
+Time metrics:
+  Total Gradle task time: 4.54 s
+
+Task ':app:dexBuilderRelease' finished in 3.37 s
+Time metrics:
+  Total Gradle task time: 3.37 s
+
+Task ':app:mergeReleaseJavaResource' finished in 3.16 s
+Time metrics:
+  Total Gradle task time: 3.16 s
+
+Task ':app:mergeReleaseResources' finished in 2.18 s
+Time metrics:
+  Total Gradle task time: 2.18 s
+
+Task ':app:processReleaseResources' finished in 1.97 s
+Time metrics:
+  Total Gradle task time: 1.97 s
+
+Task ':app:extractIncludeReleaseProto' finished in 1.52 s
+Time metrics:
+  Total Gradle task time: 1.52 s
+
+Task ':app:transformReleaseClassesWithAsm' finished in 1.49 s
+Time metrics:
+  Total Gradle task time: 1.49 s
+
+Task ':app:collectReleaseDependencies' finished in 0.82 s
+Time metrics:
+  Total Gradle task time: 0.82 s
+
+Task ':app:compileReleaseArtProfile' finished in 0.78 s
+Time metrics:
+  Total Gradle task time: 0.78 s
+
+Task ':app:packageRelease' finished in 0.73 s
+Time metrics:
+  Total Gradle task time: 0.73 s
+
+Task ':app:generateReleaseLintVitalReportModel' finished in 0.57 s
+Time metrics:
+  Total Gradle task time: 0.57 s
+
+Task ':app:hiltAggregateDepsRelease' finished in 0.54 s
+Time metrics:
+  Total Gradle task time: 0.54 s
+
+Task ':app:optimizeReleaseResources' finished in 0.51 s
+Time metrics:
+  Total Gradle task time: 0.51 s
+
+Task ':app:mergeReleaseArtProfile' finished in 0.32 s
+Time metrics:
+  Total Gradle task time: 0.32 s
+
+Task ':app:checkReleaseDuplicateClasses' finished in 0.32 s
+Time metrics:
+  Total Gradle task time: 0.32 s
+
+Task ':app:stripReleaseDebugSymbols' finished in 0.30 s
+Time metrics:
+  Total Gradle task time: 0.30 s
+
+Task ':app:sdkReleaseDependencyData' finished in 0.30 s
+Time metrics:
+  Total Gradle task time: 0.30 s
+
+Task ':app:checkReleaseAarMetadata' finished in 0.30 s
+Time metrics:
+  Total Gradle task time: 0.30 s
+
+Task ':app:mergeReleaseGlobalSynthetics' finished in 0.17 s
+Time metrics:
+  Total Gradle task time: 0.17 s
+
+Task ':app:generateReleaseProto' finished in 0.17 s
+Time metrics:
+  Total Gradle task time: 0.17 s
+
+Task ':app:lintVitalReportRelease' finished in 0.15 s
+Time metrics:
+  Total Gradle task time: 0.15 s
+
+Task ':app:processReleaseManifestForPackage' finished in 0.14 s
+Time metrics:
+  Total Gradle task time: 0.14 s
+
+Task ':app:mergeReleaseNativeLibs' finished in 0.14 s
+Time metrics:
+  Total Gradle task time: 0.14 s
+
+Task ':app:buildKotlinToolingMetadata' finished in 0.13 s
+Time metrics:
+  Total Gradle task time: 0.13 s
+
+Task ':app:processReleaseMainManifest' finished in 0.12 s
+Time metrics:
+  Total Gradle task time: 0.12 s
+
+Task ':app:javaPreCompileRelease' finished in 0.08 s
+Time metrics:
+  Total Gradle task time: 0.08 s
+
+Task ':app:parseReleaseLocalResources' finished in 0.08 s
+Time metrics:
+  Total Gradle task time: 0.08 s
+
+Task ':app:packageReleaseResources' finished in 0.08 s
+Time metrics:
+  Total Gradle task time: 0.08 s
+
+Task ':app:processReleaseJavaRes' finished in 0.08 s
+Time metrics:
+  Total Gradle task time: 0.08 s
+
+Task ':app:writeReleaseSigningConfigVersions' finished in 0.06 s
+Time metrics:
+  Total Gradle task time: 0.06 s
+
+Task ':app:extractReleaseNativeSymbolTables' finished in 0.06 s
+Time metrics:
+  Total Gradle task time: 0.06 s
+
+Task ':app:mapReleaseSourceSetPaths' finished in 0.05 s
+Time metrics:
+  Total Gradle task time: 0.05 s
+
+Task ':app:extractReleaseVersionControlInfo' finished in 0.04 s
+Time metrics:
+  Total Gradle task time: 0.04 s
+
+Task ':app:mergeReleaseJniLibFolders' finished in 0.04 s
+Time metrics:
+  Total Gradle task time: 0.04 s
+
+Task ':app:extractProguardFiles' finished in 0.03 s
+Time metrics:
+  Total Gradle task time: 0.03 s
+
+Task ':app:processReleaseGoogleServices' finished in 0.02 s
+Time metrics:
+  Total Gradle task time: 0.02 s
+
+Task ':app:generateReleaseResources' finished in 0.02 s
+Time metrics:
+  Total Gradle task time: 0.02 s
+
+Task ':app:mergeReleaseAssets' finished in 0.02 s
+Time metrics:
+  Total Gradle task time: 0.02 s
+
+Task ':app:mergeReleaseShaders' finished in 0.02 s
+Time metrics:
+  Total Gradle task time: 0.02 s
+
+Task ':app:extractProto' finished in 0.01 s
+Time metrics:
+  Total Gradle task time: 0.01 s
+
+Task ':app:validateSigningRelease' finished in 0.01 s
+Time metrics:
+  Total Gradle task time: 0.01 s
+
+Task ':app:writeReleaseAppMetadata' finished in 0.01 s
+Time metrics:
+  Total Gradle task time: 0.01 s
+
+Task ':app:generateReleaseResValues' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:processReleaseManifest' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:compressReleaseAssets' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:createReleaseApkListingFileRedirect' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:extractReleaseProto' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:createReleaseCompatibleScreenManifests' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:extractDeepLinksRelease' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:checkKotlinGradlePluginConfigurationErrors' was skipped: SKIPPED
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:desugarReleaseFileDependencies' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:compileReleaseShaders' was skipped: NO-SOURCE
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:lintVitalRelease' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:preBuild' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:mergeReleaseStartupProfile' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':app:preReleaseBuild' finished in 0.00 s
+
+Task ':app:generateReleaseAssets' finished in 0.00 s
+
+Task ':app:mergeReleaseNativeDebugMetadata' was skipped: NO-SOURCE
+
+Task ':app:assembleRelease' finished in 0.00 s
+

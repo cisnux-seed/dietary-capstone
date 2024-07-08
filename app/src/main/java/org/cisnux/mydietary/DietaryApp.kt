@@ -12,5 +12,3 @@ class DietaryApp : Application(), ImageLoaderFactory {
             .crossfade(true)
             .build()
 }
-
-

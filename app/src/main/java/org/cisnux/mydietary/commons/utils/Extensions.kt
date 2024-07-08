@@ -14,9 +14,18 @@ import java.time.Instant
 import java.time.LocalDate
 import java.time.LocalDateTime
 import java.time.LocalTime
+import java.time.Period
 import java.time.ZoneId
 import java.time.format.DateTimeFormatter
 import java.util.Locale
+
+val Instant.age: Int
+    get() {
+        val clock = Clock.fixed(this, ZoneId.systemDefault())
+        val birthDate = LocalDate.now(clock)
+        val today = LocalDate.now()
+        return Period.between(birthDate, today).years
+    }
 
 val Context.activity: AppCompatActivity?
     get() {

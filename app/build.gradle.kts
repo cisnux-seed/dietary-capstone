@@ -62,6 +62,11 @@ android {
             it.useJUnitPlatform()
         }
     }
+    kotlin {
+        sourceSets.all {
+            languageSettings.enableLanguageFeature("ExplicitBackingFields")
+        }
+    }
 }
 
 protobuf {
